@@ -1,0 +1,67 @@
+.MuiDrawer-paper {
+    background-color: #323232 !important;
+}
+
+.navbarH1Name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2rem;
+    color: white;
+}
+
+.nav-text a:hover {
+    background-color: #064C4F;
+}
+
+
+.nav-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 8px 0px 8px 16px;
+    list-style: none;
+    height: 60px;
+}
+
+.nav-text a {
+    text-decoration: none;
+    color: white;
+    font-size: 26px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-radius: 4px;
+}
+
+.IconTitleSpan {
+    margin-left: 16px;
+}
+
+.OpenDrawerButton{
+    margin:2rem 0 0 2rem;
+    padding:0.7rem;
+    background-color: #0D7377;
+    border-color:#0D7377;
+    border:#064C4F solid 1px;
+    border-radius:4px;
+}
+
+.OpenDrawerButton:hover{
+    background-color: #064C4F;
+    border-color:#064C4F;
+}
+
+.OpenDrawerButton:checked{
+    background-color: #064C4F;
+}
+
+.barIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+}
