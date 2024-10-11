@@ -36,7 +36,7 @@ export default function Contact() {
             {isTabletOrMobile && isPortrait ?
                 <>
                     <Row className="ContactValue"><h3><a href={Links[0]} target="_blank" rel="noopener noreferrer">LinkedIn</a></h3></Row>
-                    <Row className="ContactValue"><h3><a href={Links[0]} target="_blank" rel="noopener noreferrer">Github</a></h3></Row>
+                    <Row className="ContactValue"><h3><a href={Links[1]} target="_blank" rel="noopener noreferrer">Github</a></h3></Row>
                     <Row className="ContactValue"><h3><a href={Links[2]} target="_blank" rel="noopener noreferrer">Failed Humanities Youtube</a></h3></Row>
                 </>
                 :
