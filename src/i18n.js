@@ -33,10 +33,10 @@ i18n
                         SocialsTag: "Socials"
                     },
                     FailedHumanities: {
-                        Info1: "Failed Humanities is a Work In Progress project aimed at creating short-form movies using Unreal Engine.",
-                        Info2: "I am working on this project alone, from the creation of the scripts, to 3D modeling of a lot of the models, to the creation of the environment, as well as the animations and audio.",
-                        Info3: "All the videos will be uploaded on this youtube channel:",
-                        Info4: "A subscription would be appreciated if you are interested in this project, but there will not be a video uploaded for a while.",
+                        Info1: '"Failed Humanities" is a Work-In-Progress project aimed at creating short-form movies using Unreal Engine.',
+                        Info2: "I am working on this project alone, handling everything from scriptwriting and 3D modeling to creating the environments, animations, and audio.",
+                        Info3: "All the videos will be uploaded to this YouTube channel:",
+                        Info4: "A subscription would be appreciated if you're interested in the project, but please note that no videos will be uploaded for a while.",
                         Info5: "Below is a few screenshot of the videos I already started working on.",
                     },
                     About: {
@@ -52,8 +52,16 @@ i18n
                         Info5: "I also have knowledge with the functionality of CRM, where I learned how to use Pipedrive.",
                         Info6: "Here is my resume:",
                     },
-                    Other:{
-                        Video:"Video"
+                    Portfolio: {
+                        WIP: "Page Under Construction."
+                    },
+                    Error: {
+                        ErrorTag: "404",
+                        ErrorText: "Page Not Found",
+                        Return: "Return To Main Menu"
+                    },
+                    Other: {
+                        Video: "Video"
                     }
                 }
             },
@@ -63,7 +71,7 @@ i18n
                         Home: "Page Principale",
                         About: "À Propos de moi",
                         Portfolio: "Portfolio",
-                        Contact: "Contact",
+                        Contact: "Me Joindre",
                         FailedHumanities: "Failed Humanities"
                     },
                     Languages: {
@@ -71,17 +79,17 @@ i18n
                         en: "Anglais"
                     },
                     Contact: {
-                        Contact: "Comment Me Contacter",
+                        Contact: "Pour Me Joindre",
                         PhoneNumberTag: "Numéro de Téléphone:",
                         EmailAddressTag: "Adresse Email:",
                         SocialsTag: "Réseaux Sociaux:"
                     },
                     FailedHumanities: {
-                        Info1: "Failed Humanities est un projet en cours qui vise à créer des courts métrages en utilisant Unreal Engine.",
-                        Info2: "Je travail sur ce projet tout seul: de la création des scripts, jusqu'au modellage 3D de beaucoup des models, à la création de l'environement, ainsi que les animations et l'audio.",
-                        Info3: "Toutes les videos vont se retrouver dur cette chaîne Youtube:",
-                        Info4: "Une Subscription serait aprécier si vous êtes intéressé dans ce projet, mais il ne va pas avoir de vidéo prête avant un certain temps.",
-                        Info5: "Plus bas se retrouve quelques images sur certaines des vidéos qui ont été commencé.",
+                        Info1: "«Failed Humanities» est un projet en cours de développement visant à créer des courts-métrages à l'aide d'Unreal Engine.",
+                        Info2: "Je travaille seul sur ce projet en m'occupant de tout, de l'écriture des scripts et de la modélisation 3D à la création des environnements, des animations et de l'audio.",
+                        Info3: "Toutes les vidéos seront téléchargées sur cette chaîne YouTube:",
+                        Info4: "Un abonnement serait apprécié si le projet vous intéresse, mais notez qu'aucune vidéo ne sera téléchargée avant un certain temps.",
+                        Info5: "Ci-dessous, quelques captures d'écran des vidéos sur lesquelles j'ai déjà commencé à travailler.",
                     },
                     About: {
                         AboutTag: "À propos de moi",
@@ -96,8 +104,16 @@ i18n
                         Info5: "J’ai aussi des connaissances dans le fonctionnement des CRM, où j’ai appris comment fonctionnait Pipedrive.",
                         Info6: "Voici mon CV:",
                     },
-                    Other:{
-                        Video:"Vidéo"
+                    Portfolio: {
+                        WIP: "Page En Construction."
+                    },
+                    Error: {
+                        ErrorTag: "404",
+                        ErrorText: "Page Non Trouvé",
+                        Return: "Retourner Au Menu Principal"
+                    },
+                    Other: {
+                        Video: "Vidéo"
                     }
                 }
             }

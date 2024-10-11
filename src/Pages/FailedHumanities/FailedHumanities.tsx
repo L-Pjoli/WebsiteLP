@@ -24,9 +24,14 @@ export default function FailedHumanities() {
             <Row className="PageContent">
                 <h4>{t('FailedHumanities.Info1')}</h4>
                 <h4>{t('FailedHumanities.Info2')}</h4>
-                <h4>{t('FailedHumanities.Info3')}
-                    <a href="wip" target="_blank" rel="noopener noreferrer"> WIP</a>
+                <h4>{t('FailedHumanities.Info3')}</h4>
+            </Row>
+            <Row className="PageContent">
+                <h4>
+                    <a href="https://www.youtube.com/@FailedHumanities" target="_blank" rel="noopener noreferrer"> https://www.youtube.com/@FailedHumanities</a>
                 </h4>
+            </Row>
+            <Row className="PageContent">
                 <h4>{t('FailedHumanities.Info4')}</h4>
                 <h4>{t('FailedHumanities.Info5')}</h4>
             </Row>
