@@ -42,7 +42,7 @@ export default function Contact() {
                 :
                 <>
                     <Row className="ContactValue"><h3><b>LinkedIn: </b><a href={Links[0]} target="_blank" rel="noopener noreferrer">{Links[0]}</a></h3></Row>
-                    <Row className="ContactValue"><h3><b>Github: </b><a href={Links[0]} target="_blank" rel="noopener noreferrer">{Links[1]}</a></h3></Row>
+                    <Row className="ContactValue"><h3><b>Github: </b><a href={Links[1]} target="_blank" rel="noopener noreferrer">{Links[1]}</a></h3></Row>
                     <Row className="ContactValue"><h3><b>Failed Humanities Youtube: </b><a href={Links[2]} target="_blank" rel="noopener noreferrer">{Links[2]}</a></h3></Row>
                 </>
             }
