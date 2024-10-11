@@ -1,0 +1,33 @@
+.ContactName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:white;
+    padding:2rem 0 2rem 0;
+}
+
+.ContactValue a{
+    color:#0D7377;
+}
+
+.ContactValue a:hover{
+    color:#0a5154;
+}
+
+.ContactField{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:white;
+    padding:2rem 0 0 0
+}
+
+.ContactValue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:white;
+}

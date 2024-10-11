@@ -1,0 +1,34 @@
+import { Container, Row } from "react-bootstrap";
+import "../Common.css"
+import "./Contact.css"
+import { useTranslation } from "react-i18next";
+
+export default function Contact() {
+    const { t } = useTranslation();
+
+    const Links= [
+        "https://www.linkedin.com/in/louis-philippe-jolicoeur/",
+        "https://github.com/L-Pjoli",
+        "WIP"
+    ]
+
+    return (
+        <Container>
+            <Row className="PageTitle">
+                <h1>{t('Contact.Contact')}</h1>
+            </Row>
+            <Row className="ContactName"><h1>Louis-Philippe Jolicoeur</h1></Row>
+
+            <Row className="ContactField"><h2>{t('Contact.PhoneNumberTag')}</h2></Row>
+            <Row className="ContactValue"><h3>+1 (438) 520-7882</h3></Row>
+
+            <Row className="ContactField"><h2>{t('Contact.EmailAddressTag')}</h2></Row>
+            <Row className="ContactValue"><h3>lp@jolicoeur.dev</h3></Row>
+
+            <Row className="ContactField"><h2>{t('Contact.SocialsTag')}</h2></Row>
+            <Row className="ContactValue"><h3><b>LinkedIn: </b><a href={Links[0]} target="_blank" rel="noopener noreferrer">{Links[0]}</a></h3></Row>
+            <Row className="ContactValue"><h3><b>Github: </b><a href={Links[0]} target="_blank" rel="noopener noreferrer">{Links[1]}</a></h3></Row>
+            <Row className="ContactValue"><h3><b>Youtube: </b><a href={Links[2]} target="_blank" rel="noopener noreferrer">{Links[2]}</a></h3></Row>
+        </Container>
+    );
+}

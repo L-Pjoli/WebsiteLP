@@ -1,0 +1,16 @@
+.ContentList{
+    text-align: left;
+    color:white;
+}
+
+.CVRow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:1rem 0 2rem 0;
+}
+
+.CV{
+    border: 2px solid black;
+    border-radius:3px;
+}
