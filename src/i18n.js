@@ -51,6 +51,9 @@ i18n
                         Task4: "Create a connection system with Azure B2C.",
                         Info5: "I also have knowledge with the functionality of CRM, where I learned how to use Pipedrive.",
                         Info6: "Here is my resume:",
+                    },
+                    Other:{
+                        Video:"Video"
                     }
                 }
             },
@@ -92,6 +95,9 @@ i18n
                         Task4: "Créer un système de connexion avec Azure B2C.",
                         Info5: "J’ai aussi des connaissances dans le fonctionnement des CRM, où j’ai appris comment fonctionnait Pipedrive.",
                         Info6: "Voici mon CV:",
+                    },
+                    Other:{
+                        Video:"Vidéo"
                     }
                 }
             }

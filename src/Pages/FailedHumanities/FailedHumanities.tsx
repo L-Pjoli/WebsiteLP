@@ -6,12 +6,18 @@ import Clones from './FailedHumanities-Clone.png'
 import Antarctica1 from './FailedHumanities-Antarctica1.png'
 import Antarctica2 from './FailedHumanities-Antarctica2.png'
 import Antarctica3 from './FailedHumanities-Antarctica3.png'
+import { useMediaQuery } from "react-responsive";
 
 export default function FailedHumanities() {
     const { t } = useTranslation();
 
+    const isDesktopOrLaptop = useMediaQuery({ query: '(min-width: 1224px)' })
+    const isBigScreen = useMediaQuery({ query: '(min-width: 1824px)' })
+    const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
+    const isPortrait = useMediaQuery({ query: '(orientation: portrait)' })
+
     return (
-        <Container>
+        <Container className="containerContent">
             <Row className="PageTitle">
                 <h1>Failed Humanities</h1>
             </Row>
@@ -24,23 +30,35 @@ export default function FailedHumanities() {
                 <h4>{t('FailedHumanities.Info4')}</h4>
                 <h4>{t('FailedHumanities.Info5')}</h4>
             </Row>
-            <br/>
+            <br />
             <Row className="PageContent">
-            <h5>Video 1</h5>
+                <h5>{t('Other.Video')} 1</h5>
             </Row>
             <Row className="ImageRow">
-                <Col><img width="100%" src={Clones} alt="Clones Video"/></Col>
+                <Col><img width="100%" src={Clones} alt="Clones Video" /></Col>
             </Row>
             <Row className="PageContent">
-            <h5>Video 2</h5>
+                <h5>{t('Other.Video')} 2</h5>
             </Row>
             <Row className="ImageRow">
-                <Col><img width="100%" src={Antarctica1} alt="Antarctica Video"/></Col>
+                <Col><img width="100%" src={Antarctica1} alt="Antarctica Video" /></Col>
             </Row>
-            <Row className="ImageRow">
-                <Col md={5}><img width="100%" src={Antarctica2} alt="Antarctica Video"/></Col>
-                <Col md={7}><img width="100%" src={Antarctica3} alt="Antarctica Video"/></Col>
-            </Row>
+            {isTabletOrMobile && isPortrait ?
+                <>
+                    <Row className="ImageRow">
+                        <Col><img width="100%" src={Antarctica2} alt="Antarctica Video" /></Col>
+                    </Row>
+                    <Row className="ImageRow">
+                        <Col><img width="100%" src={Antarctica3} alt="Antarctica Video" /></Col>
+                    </Row>
+                </>
+                :
+                <Row className="ImageRow">
+                    <Col md={5}><img width="100%" src={Antarctica2} alt="Antarctica Video" /></Col>
+                    <Col md={7}><img width="100%" src={Antarctica3} alt="Antarctica Video" /></Col>
+                </Row>
+            }
+
 
         </Container>
     );

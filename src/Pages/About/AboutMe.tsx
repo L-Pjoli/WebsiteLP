@@ -9,7 +9,7 @@ export default function AboutMe() {
     const { t, i18n } = useTranslation();
 
     return (
-        <Container>
+        <Container className="containerContent">
             <Row className="PageTitle">
                 <h1>{t("About.AboutTag")}</h1>
             </Row>

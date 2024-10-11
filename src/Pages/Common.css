@@ -1,3 +1,15 @@
+
+@media only screen and (max-width: 1224px) and (orientation: portrait){
+    /* For mobile phones: */
+    .containerContent{
+        width:80%
+    }
+
+    .PageTitle{
+        padding:1rem 0
+    }
+  }
+
 .PageTitle{
     display: flex;
     justify-content: center;

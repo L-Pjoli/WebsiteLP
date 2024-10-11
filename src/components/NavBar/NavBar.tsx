@@ -10,18 +10,32 @@ import "./NavBar.css"
 import * as IconBi from "react-icons/bi";
 import { useTranslation } from "react-i18next";
 import FailedHumanitiesSVG from "../FailedHumanitiesSVG";
+import { useMediaQuery } from "react-responsive";
+
 
 
 function NavBar() {
     const { t, i18n } = useTranslation();
     const [open, setOpen] = useState(false);
+    const isDesktopOrLaptop = useMediaQuery({ query: '(min-width: 1224px)' })
+    const isBigScreen = useMediaQuery({ query: '(min-width: 1824px)' })
+    const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
+    const isPortrait = useMediaQuery({ query: '(orientation: portrait)' })
 
     const toggleDrawer = (newOpen: boolean) => () => {
         setOpen(newOpen);
     };
 
+    function DrawerSize() {
+        if (isTabletOrMobile && isPortrait) {
+            return "100%";
+        } else {
+            return "400px";
+        }
+    }
+
     const DrawerList = (
-        <Box sx={{ width: 400 }} role="presentation" onClick={toggleDrawer(false)}>
+        <Box sx={{ width: DrawerSize }} role="presentation" onClick={toggleDrawer(false)} >
             <List>
                 <ListItem>
                     <div >

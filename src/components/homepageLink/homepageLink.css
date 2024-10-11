@@ -1,3 +1,28 @@
+@media only screen and (max-width: 1224px) and (orientation: portrait) {
+
+    /* For mobile phones: */
+    .homepageLink-container {
+        width:60% !important;
+    }
+
+    .colHomepageLink{
+        padding:1rem 1rem
+    }
+}
+
+@media only screen and (max-width: 1224px) and (orientation: landscape) {
+
+    /* For mobile phones: */
+    .homepageLink-container {
+        width:100% !important;
+        height:100% !important;
+    }
+
+    .colHomepageLink{
+        padding:1rem 1rem
+    }
+}
+
 .homepageLink-container {
     width:15vw;
     height:35vh;
@@ -12,6 +37,10 @@
 .homepageLink-container:hover {
     background-color: #0a5154;
     text-decoration: none;
+}
+
+.colHomepageLink{
+ padding: 1rem;
 }
 
 .homepageLink-icon{
@@ -44,7 +73,4 @@
 }
 
 
-.TitleRow{
-    padding-top:5rem
-}
 

@@ -1,57 +1,67 @@
-.LanguageButton{
-    padding:0.7rem;
-    width:10rem;
-    background-color: #0D7377;
-    border-color:#0D7377;
-    border:#064C4F solid 1px;
-    border-radius:4px;
-    color:white;
-    margin-top:1rem;
+@media only screen and (max-width: 1224px) and (orientation: portrait) {
+
+    /* For mobile phones: */
+    .homepageH1 {
+        margin-top: 0 !important;
+    }
+
+
 }
 
-.LanguageButton:hover{
+.LanguageButton {
+    padding: 0.7rem;
+    width: 10rem;
+    background-color: #0D7377;
+    border-color: #0D7377;
+    border: #064C4F solid 1px;
+    border-radius: 4px;
+    color: white;
+    margin-top: 1rem;
+}
+
+.LanguageButton:hover {
     background-color: #064C4F;
 }
 
-.LanguageButtonCol{
+.LanguageButtonCol {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.LanguageButtonDrawer{
-    padding:0.6rem;
-    width:14rem;
+.LanguageButtonDrawer {
+    padding: 0.6rem;
+    width: 100%;
     background-color: #0D7377;
-    border-color:#0D7377;
-    border:#064C4F solid 1px;
-    border-radius:4px;
-    color:white;
-    margin-top:1rem;
+    border-color: #0D7377;
+    border: #064C4F solid 1px;
+    border-radius: 4px;
+    color: white;
+    margin-top: 1rem;
 }
 
-.LanguageButtonDrawer:hover{
+.LanguageButtonDrawer:hover {
     background-color: #064C4F;
 }
 
-.LanguageButtonColDrawer{
-    padding:0 1rem
+.LanguageButtonColDrawer {
+    padding: 0 1rem
 }
 
-.homepageH1{
-    color:white;
+.homepageH1 {
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 8vh;
-    margin-top:10vh;
-    margin-bottom:2vh;
+    margin-top: 10vh;
+    margin-bottom: 2vh;
     text-align: center;
 }
 
-.homepageH1Div{
+.homepageH1Div {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin:1rem
+    margin: 1rem
 }
