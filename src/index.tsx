@@ -4,7 +4,7 @@ import './index.css';
 import { createBrowserRouter, Outlet, RouterProvider } from 'react-router-dom';
 import Home from './Pages/Home/Home';
 import AboutMe from './Pages/About/AboutMe';
-import Portfolio from './Pages/Portfolio';
+import Portfolio from './Pages/Portfolio/Portfolio';
 import Contact from './Pages/Contact/Contact';
 import ErrorPage from './Pages/ErrorPage';
 import NavBar from './components/NavBar/NavBar';

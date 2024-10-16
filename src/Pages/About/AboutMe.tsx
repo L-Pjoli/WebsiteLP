@@ -4,9 +4,14 @@ import "./AboutMe.css"
 import { useTranslation } from "react-i18next";
 import CVFR from "./CV Louis-Philippe Jolicoeur - FR.png"
 import CVEN from "./CV Louis-Philippe Jolicoeur - EN.png"
+import { useEffect } from "react";
 
 export default function AboutMe() {
     const { t, i18n } = useTranslation();
+
+    useEffect(()=>{
+        window.scrollTo(0, 0);
+      },[])
 
     return (
         <Container className="containerContent">

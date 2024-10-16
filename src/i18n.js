@@ -32,13 +32,6 @@ i18n
                         EmailAddressTag: "Email Address:",
                         SocialsTag: "Socials"
                     },
-                    FailedHumanities: {
-                        Info1: '"Failed Humanities" is a Work-In-Progress project aimed at creating short-form movies using Unreal Engine.',
-                        Info2: "I am working on this project alone, handling everything from scriptwriting and 3D modeling to creating the environments, animations, and audio.",
-                        Info3: "All the videos will be uploaded to this YouTube channel:",
-                        Info4: "A subscription would be appreciated if you're interested in the project, but please note that no videos will be uploaded for a while.",
-                        Info5: "Below is a few screenshot of the videos I already started working on.",
-                    },
                     About: {
                         AboutTag: "About Me",
                         Info1: "My name is Louis-Philippe Jolicoeur. I have experience in everything related to a Full-Stack developer job.",
@@ -53,7 +46,26 @@ i18n
                         Info6: "Here is my resume:",
                     },
                     Portfolio: {
-                        WIP: "Page Under Construction."
+                        PersonalTitle:"Personal Projects",
+                        WorkedOn: "Professionnal Projects",
+                        WebDev:"Web Development",
+                        GameEngine:"Game Engine Projects",
+                        Electronics:"Electronics Projects",
+                        DarianInfo1:"A personal website created for a friend who is currently training to become a luthier.",
+                        DarianInfo2:"I offered to make his website when he showed me the one he had previously made with Wix.",
+                        DarianInfo3:"This website is currently hosted on a default Vercel domain but will be moved to the correct domain once the project is fully completed.",
+                        FroodKB:"Frood 75% Keyboard",
+                        FroodInfo1: "The link leads to a GitHub repository for a mechanical keyboard PCB I designed.",
+                        FroodInfo2:"I decided to work on this project for several reasons: The PCBs available online always seemed to lack something, whether it was the right layout or a rotary encoder. Additionally, a single PCB cost around $60, whereas ordering a custom batch of five PCBs costs the same. I also enjoy learning new skills, and using KiCAD was a particularly enjoyable experience. On top of that, I love personalizing projects, and a mechanical keyboard is ideal for customization. While most people focus on choosing switches and keycaps, I also design the cases using my 3D printer to create a mold for epoxy resin. Now, even the PCBs are custom-made.",
+                        FailedHumanities: "Failed Humanities",
+                        FailedHumanitiesInfo: "Click here to know more about Failed Humanities.",
+                    },
+                    FailedHumanities: {
+                        Info1: '"Failed Humanities" is a Work-In-Progress project aimed at creating short-form movies using Unreal Engine.',
+                        Info2: "I am working on this project alone, handling everything from scriptwriting and 3D modeling to creating the environments, animations, and audio.",
+                        Info3: "All the videos will be uploaded to this YouTube channel:",
+                        Info4: "A subscription would be appreciated if you're interested in the project, but please note that no videos will be uploaded for a while.",
+                        Info5: "Below is a few screenshot of the videos I already started working on.",
                     },
                     Error: {
                         ErrorTag: "404",
@@ -84,13 +96,6 @@ i18n
                         EmailAddressTag: "Adresse Email:",
                         SocialsTag: "Réseaux Sociaux:"
                     },
-                    FailedHumanities: {
-                        Info1: "«Failed Humanities» est un projet en cours de développement visant à créer des courts-métrages à l'aide d'Unreal Engine.",
-                        Info2: "Je travaille seul sur ce projet en m'occupant de tout, de l'écriture des scripts et de la modélisation 3D à la création des environnements, des animations et de l'audio.",
-                        Info3: "Toutes les vidéos seront téléchargées sur cette chaîne YouTube:",
-                        Info4: "Un abonnement serait apprécié si le projet vous intéresse, mais notez qu'aucune vidéo ne sera téléchargée avant un certain temps.",
-                        Info5: "Ci-dessous, quelques captures d'écran des vidéos sur lesquelles j'ai déjà commencé à travailler.",
-                    },
                     About: {
                         AboutTag: "À propos de moi",
                         Info1: "Je m’appelle Louis-Philippe Jolicoeur. J’ai de l’expérience dans toutes les facettes d’un poste de développeur Full Stack.",
@@ -105,7 +110,27 @@ i18n
                         Info6: "Voici mon CV:",
                     },
                     Portfolio: {
-                        WIP: "Page En Construction."
+                        PersonalTitle:"Projets Personnels",
+                        WorkedOn: "Projets Professionnels",
+                        WebDev:"Developement Web",
+                        GameEngine:"Projet de Game Engine",
+                        Electronics:"Projets Électronique",
+                        DarianInfo1:"Site web personnel créé pour un ami, qui est actuellement en formation pour devenir luthier.",
+                        DarianInfo2:"J'ai proposé de créer son site web quand il m'a montré celui qu'il avait précédemment fait avec Wix.",
+                        DarianInfo3:"Ce site est actuellement hébergé sur un domaine par défaut de Vercel, mais il sera migré vers le bon domaine une fois que le projet sera terminé à 100%.",
+                        FroodKB:"Frood 75% Keyboard",
+                        FroodInfo1: "Le lien renvoie à un repo GitHub créé pour un PCB de clavier mécanique que j'ai conçu.",
+                        FroodInfo2:"J'ai décidé de travailler sur ce projet pour plusieurs raisons : Les PCBs disponibles en ligne manquaient toujours de quelque chose, soit la disposition correcte, soit un encodeur rotatif. De plus, un seul PCB coûtait environ 60 $, tandis que commander la fabrication de 5 PCBs coûtait le même prix. J'aime apprendre de nouvelles techniques, et apprendre à utiliser KiCAD a été une expérience vraiment agréable. En outre, j'aime personnaliser les projets, et un clavier mécanique est le candidat parfait pour la personnalisation. Alors que la plupart des gens choisissent simplement les switches et les keycaps, je fabrique également les boîtiers avec mon imprimante 3D pour créer un moule et utiliser de la résine époxy. Désormais, même les PCBs sont personnalisés.",
+                        FailedHumanities: "Failed Humanities",
+                        FailedHumanitiesInfo: "Cliquez ici pour en savoir plus sur Failed Humanities.",
+
+                    },
+                    FailedHumanities: {
+                        Info1: "«Failed Humanities» est un projet en cours de développement visant à créer des courts-métrages à l'aide d'Unreal Engine.",
+                        Info2: "Je travaille seul sur ce projet en m'occupant de tout, de l'écriture des scripts et de la modélisation 3D à la création des environnements, des animations et de l'audio.",
+                        Info3: "Toutes les vidéos seront téléchargées sur cette chaîne YouTube:",
+                        Info4: "Un abonnement serait apprécié si le projet vous intéresse, mais notez qu'aucune vidéo ne sera téléchargée avant un certain temps.",
+                        Info5: "Ci-dessous, quelques captures d'écran des vidéos sur lesquelles j'ai déjà commencé à travailler.",
                     },
                     Error: {
                         ErrorTag: "404",

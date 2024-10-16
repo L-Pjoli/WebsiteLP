@@ -3,12 +3,15 @@ import "../Common.css"
 import "./Contact.css"
 import { useTranslation } from "react-i18next";
 import { useMediaQuery } from "react-responsive";
+import { useEffect } from "react";
 
 export default function Contact() {
     const { t } = useTranslation();
 
-    const isDesktopOrLaptop = useMediaQuery({ query: '(min-width: 1224px)' })
-    const isBigScreen = useMediaQuery({ query: '(min-width: 1824px)' })
+    useEffect(()=>{
+        window.scrollTo(0, 0);
+      },[])
+
     const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
     const isPortrait = useMediaQuery({ query: '(orientation: portrait)' })
 
